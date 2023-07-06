@@ -1,4 +1,4 @@
-#include <stdio.h>
+//#include <stdio.h>
 
 unsigned char	reverse_bits(unsigned char octet)
 {
@@ -11,11 +11,11 @@ unsigned char	reverse_bits(unsigned char octet)
         octet = octet / 2;
         i--;
     }
-    return(0);
+    return(res);
 }
 
-int main()
+/*int main()
 {
     unsigned char data = 170;
    printf("%c\n", reverse_bits(data));
-}
+}*/
