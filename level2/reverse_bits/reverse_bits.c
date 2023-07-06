@@ -9,5 +9,5 @@ unsigned char	reverse_bits(unsigned char octet)
 		octet = octet / 2;  //bitlerin sağa doğru kaydırılması için
 		i--;
 	}
-	return (0);
+	return (bit);
 }
