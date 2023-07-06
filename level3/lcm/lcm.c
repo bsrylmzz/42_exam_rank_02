@@ -16,7 +16,6 @@ unsigned int    lcm(unsigned int a, unsigned int b)
             return(nbr);
         nbr++; 
     }
-    return(0);
 }
 
 /*int main()
